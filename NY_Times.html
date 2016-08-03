@@ -17,11 +17,16 @@
                 <h1>New York Times Search</h1>
             </div>
             <div class="searchParameters">
-                <h5>Search term</h5><input id=searchTerm class="form-control" placeholder="Text input" type="text">
-                <h5>Number of records to retrieve</h5><input class="form-control" placeholder="Text input" type="text">
-                <h5>Start year (optional)</h5><input class="form-control" placeholder="Text input" type="text">
-                <h5>End year (optional)</h5><input class="form-control" placeholder="Text input" type="text"> <button class=
-                "btn btn-success" type="button">Search</button> <button class="btn btn-warning" type="button">Clear Results</button>
+                <h5>Search term</h5>
+                <input id="searchTerm" class="form-control" placeholder="Text input" type="text">
+                <h5>Number of records to retrieve</h5>
+                <input class="form-control" placeholder="Text input" type="text">
+                <h5>Start year (optional)</h5>
+                <input class="form-control" placeholder="Text input" type="text">
+                <h5>End year (optional)</h5>
+                <input class="form-control" placeholder="Text input" type="text"> 
+                <button class="btn btn-success" type="button" id="search">Search</button> 
+                <button class="btn btn-warning" type="button">Clear Results</button>
             </div>
             <div id="topArticles">
                 <div class="page-header">
@@ -31,7 +36,7 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
         </script> 
-        <script src="assets/javascript/nytsearch.js">
+        <script src="nytsearch.js">
         </script> 
     </div>
 </body>
