@@ -1,4 +1,4 @@
-.page-header{
+/*.page-header{
   background-color: blue;
   text-align: center;
   padding: 5px;
@@ -6,5 +6,23 @@
 .searchParameters, .topArticles{
   border-style: solid;
   color: black;
-}
+}*/
 
+.jumbotron{
+	background-color: #07074a;
+	color: white;
+	text-align: center;
+}
+.panel-default>.panel-heading{
+	background-color: #07074a;
+	color: white;
+
+}
+.btn-default{
+	background-color: grey;
+	color: white;
+
+}
+.btn-default{
+	margin-top: 10px;
+}
