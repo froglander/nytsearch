@@ -5,68 +5,34 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>NY_Times</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
+    <link href="NY_Times.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Fascinate+Inline' rel='stylesheet' type='text/css'>
-
-<style>
-  
-.page-header{
-  background-color: blue;
-  text-align: center;
-  padding: 5px;
-}
-.searchParameters{
-  border-style: solid;
-  color: black;
-}
-
-
-
-</style>
-
 </head>
-
 <body>
-
-<div class="wrapper">
-
- 
-  <div class="container">
-   <div class="page-header">
-    <h1>New York Times Search</h1>
-  </div>
-  <div class="searchParameters">
-
-    <h5>Search term</h5>
-    <input type="text" class="form-control" placeholder="Text input">
-    <h5>Number of records to retrieve</h5>
-    <input type="text" class="form-control" placeholder="Text input">
-    <h5>Start year (optional)</h5>
-    <input type="text" class="form-control" placeholder="Text input">
-    <h5>End year (optional)</h5>
-    <input type="text" class="form-control" placeholder="Text input">
-
-    <button type="button" class="btn btn-success">Search</button>
-    <button type="button" class="btn btn-warning">Clear Results</button>
-
-  </div>
-
-
-  <div id="topArticles">
-
-
-
-
-
-
-
-  </div>
-</div>
-
+    <div class="wrapper">
+        <div class="container">
+            <div class="page-header">
+                <h1>New York Times Search</h1>
+            </div>
+            <div class="searchParameters">
+                <h5>Search term</h5><input id=searchTerm class="form-control" placeholder="Text input" type="text">
+                <h5>Number of records to retrieve</h5><input class="form-control" placeholder="Text input" type="text">
+                <h5>Start year (optional)</h5><input class="form-control" placeholder="Text input" type="text">
+                <h5>End year (optional)</h5><input class="form-control" placeholder="Text input" type="text"> <button class=
+                "btn btn-success" type="button">Search</button> <button class="btn btn-warning" type="button">Clear Results</button>
+            </div>
+            <div id="topArticles">
+                <div class="page-header">
+                <h4>Top Articles</h4>
+            </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+        </script> 
+        <script src="assets/javascript/nytsearch.js">
+        </script> 
+    </div>
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="assets/javascript/NYTSearch.js"></script>
-
 </html>

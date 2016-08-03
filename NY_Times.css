@@ -1,6 +1,10 @@
-h1{
-	background-color: blue;
+.page-header{
+  background-color: blue;
+  text-align: center;
+  padding: 5px;
 }
-.searchParameters{
-	border: 1px;
+.searchParameters, .topArticles{
+  border-style: solid;
+  color: black;
 }
+
