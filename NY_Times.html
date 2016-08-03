@@ -11,21 +11,20 @@
     <link href='https://fonts.googleapis.com/css?family=Fascinate+Inline' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    
     <div class="container">
         <div class="jumbotron">
             <h1><span aria-hidden="true" class="glyphicon glyphicon-list"></span> New York Times Search</h1>
         </div>
         <div class="panel panel-default">
-            <div class="panel-heading">
-                Search Parameters
-            </div>
+            <div class="panel-heading">Search Parameters</div>
             <div class="panel-body">
-                <p>Search Term:</p><input class="form-control" id="searchTerm" type="text">
-                <p>Number of Records to Retrieve:</p><input class="form-control" id="toBeDetermined2" type="text">
-                <p>Start Year (Optional):</p><input class="form-control" id="toBeDetermined3" type="text">
-                <p>End Year (Optional):</p><input class="form-control" id="toBeDetermined4" type="text"> <button class="btn btn-default"
-                type="button"><span aria-hidden="true" class="glyphicon glyphicon-search"></span> Search</button> <button class=
-                "btn btn-default" type="button"><span aria-hidden="true" class="glyphicon glyphicon-trash"></span> Clear Results</button>
+                <p>Search Term:</p><input class="form-control" id="searchTerm" type="text"><!--#searchTerm-->
+                <p>Number of Records to Retrieve:</p><input class="form-control" id="toBeDetermined2" type="text"> <!--vacant #id-->
+                <p>Start Year (Optional):</p><input class="form-control" id="toBeDetermined3" type="text"><!--vacant #id-->
+                <p>End Year (Optional):</p><input class="form-control" id="toBeDetermined4" type="text"> <!--vacant #id-->
+                <button class="btn btn-default" id="search" type="button"><span aria-hidden="true" class="glyphicon glyphicon-search"></span> Search</button><!--search btn-->
+                <button class="btn btn-default" type="button"><span aria-hidden="true" class="glyphicon glyphicon-trash"></span> Clear Results</button><!--clear results btn-->
             </div>
         </div>
         <div class="panel panel-default">
@@ -33,11 +32,14 @@
                 <span aria-hidden="true" class="glyphicon glyphicon-list"></span> Top Articles:
             </div>
             <div class="panel-body">
-                <div id="topArticles"></div>
+                <div id="topArticles"></div><!--#topArticles-->
             </div>
         </div>
+    </div>
         
-        <!--<div class="searchParameters">
+
+
+            <!--<div class="searchParameters">
                 <h5>Search term</h5><input id="searchTerm" class="form-control" placeholder="Text input" type=';;;l;'
                 wwwqweew"text">
                 <h5>Number of records to retrieve</h5><input class="form-control" placeholder="Text input" type="text">
@@ -49,12 +51,11 @@
                 <div class="page-header">
                 <h4>Top Articles</h4>
             </div>
-            </div> -->
+            </div> --> 
             
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-    </script> 
-    <script src="assets/javascript/nytsearch.js">
-    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="assets/javascript/nytsearch.js"></script>
+    
 </body>
 </html>
