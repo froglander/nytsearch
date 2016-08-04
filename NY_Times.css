@@ -25,12 +25,13 @@ h1 {
 p {
     margin: 5px;
 }
-
-/*.headlines{   gave div class of headlines--commented out incase you want to use it
+/*line 30 css-.headlines was the name of the class that would be added to the divs created by jQuery, so they can be styled. Doesnt have to be named headlines
+/*line 35 css-h3 sizing is closer to class display than h1
+/*.headlines{   
 	background-color: #e1eae1;
 	margin: 10px;
 	padding:10px;
 }
-h3{  gave h3 same color blue as the rest of themese-commented out incase you want to use it
+h3{  
 	color: #07074a;
 }*/
