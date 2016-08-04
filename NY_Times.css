@@ -35,3 +35,10 @@ p {
 h3{  
 	color: #07074a;
 }*/
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+h1{
+    animation: fadeIn 2s infinite alternate;
+}
